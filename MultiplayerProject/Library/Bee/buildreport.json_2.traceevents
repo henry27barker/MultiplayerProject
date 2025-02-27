@@ -1,536 +1,441 @@
-{ "pid": 2811, "tid": 68719476736, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017326339, "dur": 15831, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017342172, "dur": 29326, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017342937, "dur": 471, "ph": "X", "name": "ReadAsync 0", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343430, "dur": 44, "ph": "X", "name": "ProcessMessages 8145", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343477, "dur": 137, "ph": "X", "name": "ReadAsync 8145", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343637, "dur": 2, "ph": "X", "name": "ProcessMessages 1907", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343640, "dur": 112, "ph": "X", "name": "ReadAsync 1907", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343783, "dur": 2, "ph": "X", "name": "ProcessMessages 1408", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343787, "dur": 62, "ph": "X", "name": "ReadAsync 1408", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343853, "dur": 2, "ph": "X", "name": "ProcessMessages 1209", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343856, "dur": 57, "ph": "X", "name": "ReadAsync 1209", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343916, "dur": 2, "ph": "X", "name": "ProcessMessages 909", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017343920, "dur": 86, "ph": "X", "name": "ReadAsync 909", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344009, "dur": 2, "ph": "X", "name": "ProcessMessages 1068", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344012, "dur": 52, "ph": "X", "name": "ReadAsync 1068", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344076, "dur": 2, "ph": "X", "name": "ProcessMessages 681", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344080, "dur": 62, "ph": "X", "name": "ReadAsync 681", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344146, "dur": 9, "ph": "X", "name": "ProcessMessages 599", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344159, "dur": 76, "ph": "X", "name": "ReadAsync 599", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344238, "dur": 2, "ph": "X", "name": "ProcessMessages 1270", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344242, "dur": 59, "ph": "X", "name": "ReadAsync 1270", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344304, "dur": 2, "ph": "X", "name": "ProcessMessages 780", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344307, "dur": 63, "ph": "X", "name": "ReadAsync 780", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344374, "dur": 1, "ph": "X", "name": "ProcessMessages 744", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344377, "dur": 55, "ph": "X", "name": "ReadAsync 744", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344435, "dur": 1, "ph": "X", "name": "ProcessMessages 807", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344438, "dur": 75, "ph": "X", "name": "ReadAsync 807", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344517, "dur": 2, "ph": "X", "name": "ProcessMessages 1093", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344520, "dur": 52, "ph": "X", "name": "ReadAsync 1093", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344575, "dur": 1, "ph": "X", "name": "ProcessMessages 726", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344578, "dur": 51, "ph": "X", "name": "ReadAsync 726", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344633, "dur": 1, "ph": "X", "name": "ProcessMessages 504", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344636, "dur": 123, "ph": "X", "name": "ReadAsync 504", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344824, "dur": 3, "ph": "X", "name": "ProcessMessages 1622", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344829, "dur": 74, "ph": "X", "name": "ReadAsync 1622", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344907, "dur": 2, "ph": "X", "name": "ProcessMessages 1385", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344911, "dur": 66, "ph": "X", "name": "ReadAsync 1385", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344989, "dur": 8, "ph": "X", "name": "ProcessMessages 871", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017344999, "dur": 66, "ph": "X", "name": "ReadAsync 871", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345069, "dur": 2, "ph": "X", "name": "ProcessMessages 887", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345072, "dur": 58, "ph": "X", "name": "ReadAsync 887", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345133, "dur": 1, "ph": "X", "name": "ProcessMessages 593", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345136, "dur": 70, "ph": "X", "name": "ReadAsync 593", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345210, "dur": 2, "ph": "X", "name": "ProcessMessages 881", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345213, "dur": 60, "ph": "X", "name": "ReadAsync 881", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345277, "dur": 1, "ph": "X", "name": "ProcessMessages 865", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345280, "dur": 74, "ph": "X", "name": "ReadAsync 865", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345357, "dur": 2, "ph": "X", "name": "ProcessMessages 734", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345361, "dur": 68, "ph": "X", "name": "ReadAsync 734", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345432, "dur": 2, "ph": "X", "name": "ProcessMessages 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345436, "dur": 47, "ph": "X", "name": "ReadAsync 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345486, "dur": 1, "ph": "X", "name": "ProcessMessages 665", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345489, "dur": 207, "ph": "X", "name": "ReadAsync 665", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345701, "dur": 3, "ph": "X", "name": "ProcessMessages 2021", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345705, "dur": 73, "ph": "X", "name": "ReadAsync 2021", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345782, "dur": 2, "ph": "X", "name": "ProcessMessages 1048", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345786, "dur": 60, "ph": "X", "name": "ReadAsync 1048", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345850, "dur": 2, "ph": "X", "name": "ProcessMessages 655", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345853, "dur": 58, "ph": "X", "name": "ReadAsync 655", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345914, "dur": 8, "ph": "X", "name": "ProcessMessages 753", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017345969, "dur": 87, "ph": "X", "name": "ReadAsync 753", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346061, "dur": 2, "ph": "X", "name": "ProcessMessages 1306", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346065, "dur": 174, "ph": "X", "name": "ReadAsync 1306", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346242, "dur": 3, "ph": "X", "name": "ProcessMessages 2160", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346247, "dur": 163, "ph": "X", "name": "ReadAsync 2160", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346414, "dur": 3, "ph": "X", "name": "ProcessMessages 2208", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346418, "dur": 80, "ph": "X", "name": "ReadAsync 2208", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346502, "dur": 2, "ph": "X", "name": "ProcessMessages 858", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346505, "dur": 88, "ph": "X", "name": "ReadAsync 858", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346597, "dur": 2, "ph": "X", "name": "ProcessMessages 1284", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346600, "dur": 57, "ph": "X", "name": "ReadAsync 1284", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346660, "dur": 1, "ph": "X", "name": "ProcessMessages 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346663, "dur": 70, "ph": "X", "name": "ReadAsync 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346736, "dur": 2, "ph": "X", "name": "ProcessMessages 1104", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346740, "dur": 53, "ph": "X", "name": "ReadAsync 1104", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346796, "dur": 1, "ph": "X", "name": "ProcessMessages 635", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346799, "dur": 90, "ph": "X", "name": "ReadAsync 635", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346893, "dur": 2, "ph": "X", "name": "ProcessMessages 1069", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017346896, "dur": 119, "ph": "X", "name": "ReadAsync 1069", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347018, "dur": 1, "ph": "X", "name": "ProcessMessages 1003", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347021, "dur": 63, "ph": "X", "name": "ReadAsync 1003", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347087, "dur": 1, "ph": "X", "name": "ProcessMessages 949", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347090, "dur": 54, "ph": "X", "name": "ReadAsync 949", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347147, "dur": 1, "ph": "X", "name": "ProcessMessages 790", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347150, "dur": 99, "ph": "X", "name": "ReadAsync 790", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347253, "dur": 2, "ph": "X", "name": "ProcessMessages 1557", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347258, "dur": 190, "ph": "X", "name": "ReadAsync 1557", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347451, "dur": 3, "ph": "X", "name": "ProcessMessages 2415", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347455, "dur": 53, "ph": "X", "name": "ReadAsync 2415", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347512, "dur": 1, "ph": "X", "name": "ProcessMessages 931", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347514, "dur": 47, "ph": "X", "name": "ReadAsync 931", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347564, "dur": 1, "ph": "X", "name": "ProcessMessages 642", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347567, "dur": 44, "ph": "X", "name": "ReadAsync 642", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347615, "dur": 1, "ph": "X", "name": "ProcessMessages 582", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347617, "dur": 66, "ph": "X", "name": "ReadAsync 582", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347705, "dur": 1, "ph": "X", "name": "ProcessMessages 395", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347708, "dur": 53, "ph": "X", "name": "ReadAsync 395", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347764, "dur": 1, "ph": "X", "name": "ProcessMessages 876", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347766, "dur": 60, "ph": "X", "name": "ReadAsync 876", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347831, "dur": 1, "ph": "X", "name": "ProcessMessages 603", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347834, "dur": 54, "ph": "X", "name": "ReadAsync 603", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347922, "dur": 7, "ph": "X", "name": "ProcessMessages 887", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347931, "dur": 55, "ph": "X", "name": "ReadAsync 887", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347989, "dur": 2, "ph": "X", "name": "ProcessMessages 1171", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017347992, "dur": 78, "ph": "X", "name": "ReadAsync 1171", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348093, "dur": 2, "ph": "X", "name": "ProcessMessages 1076", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348096, "dur": 54, "ph": "X", "name": "ReadAsync 1076", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348154, "dur": 1, "ph": "X", "name": "ProcessMessages 454", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348156, "dur": 45, "ph": "X", "name": "ReadAsync 454", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348204, "dur": 1, "ph": "X", "name": "ProcessMessages 548", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348207, "dur": 86, "ph": "X", "name": "ReadAsync 548", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348296, "dur": 1, "ph": "X", "name": "ProcessMessages 613", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348299, "dur": 53, "ph": "X", "name": "ReadAsync 613", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348410, "dur": 2, "ph": "X", "name": "ProcessMessages 1063", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348414, "dur": 69, "ph": "X", "name": "ReadAsync 1063", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348517, "dur": 2, "ph": "X", "name": "ProcessMessages 1398", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348521, "dur": 119, "ph": "X", "name": "ReadAsync 1398", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348644, "dur": 2, "ph": "X", "name": "ProcessMessages 1199", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348647, "dur": 87, "ph": "X", "name": "ReadAsync 1199", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348753, "dur": 1, "ph": "X", "name": "ProcessMessages 555", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348756, "dur": 142, "ph": "X", "name": "ReadAsync 555", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348902, "dur": 2, "ph": "X", "name": "ProcessMessages 1407", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348906, "dur": 58, "ph": "X", "name": "ReadAsync 1407", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348967, "dur": 1, "ph": "X", "name": "ProcessMessages 694", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017348970, "dur": 90, "ph": "X", "name": "ReadAsync 694", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349063, "dur": 2, "ph": "X", "name": "ProcessMessages 982", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349066, "dur": 85, "ph": "X", "name": "ReadAsync 982", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349175, "dur": 1, "ph": "X", "name": "ProcessMessages 885", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349179, "dur": 84, "ph": "X", "name": "ReadAsync 885", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349266, "dur": 2, "ph": "X", "name": "ProcessMessages 1045", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349269, "dur": 99, "ph": "X", "name": "ReadAsync 1045", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349372, "dur": 2, "ph": "X", "name": "ProcessMessages 1297", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349375, "dur": 64, "ph": "X", "name": "ReadAsync 1297", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349442, "dur": 1, "ph": "X", "name": "ProcessMessages 776", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349445, "dur": 60, "ph": "X", "name": "ReadAsync 776", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349520, "dur": 2, "ph": "X", "name": "ProcessMessages 753", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349524, "dur": 72, "ph": "X", "name": "ReadAsync 753", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349599, "dur": 2, "ph": "X", "name": "ProcessMessages 1143", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349603, "dur": 74, "ph": "X", "name": "ReadAsync 1143", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349680, "dur": 1, "ph": "X", "name": "ProcessMessages 728", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349682, "dur": 54, "ph": "X", "name": "ReadAsync 728", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349740, "dur": 2, "ph": "X", "name": "ProcessMessages 556", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349744, "dur": 89, "ph": "X", "name": "ReadAsync 556", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349844, "dur": 2, "ph": "X", "name": "ProcessMessages 1320", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349849, "dur": 66, "ph": "X", "name": "ReadAsync 1320", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349918, "dur": 2, "ph": "X", "name": "ProcessMessages 1074", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349921, "dur": 70, "ph": "X", "name": "ReadAsync 1074", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349995, "dur": 1, "ph": "X", "name": "ProcessMessages 889", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017349998, "dur": 58, "ph": "X", "name": "ReadAsync 889", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350059, "dur": 1, "ph": "X", "name": "ProcessMessages 569", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350062, "dur": 70, "ph": "X", "name": "ReadAsync 569", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350136, "dur": 1, "ph": "X", "name": "ProcessMessages 627", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350138, "dur": 89, "ph": "X", "name": "ReadAsync 627", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350232, "dur": 2, "ph": "X", "name": "ProcessMessages 822", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350235, "dur": 62, "ph": "X", "name": "ReadAsync 822", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350301, "dur": 2, "ph": "X", "name": "ProcessMessages 1169", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350304, "dur": 65, "ph": "X", "name": "ReadAsync 1169", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350373, "dur": 1, "ph": "X", "name": "ProcessMessages 955", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350376, "dur": 58, "ph": "X", "name": "ReadAsync 955", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350438, "dur": 2, "ph": "X", "name": "ProcessMessages 774", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350441, "dur": 113, "ph": "X", "name": "ReadAsync 774", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350557, "dur": 2, "ph": "X", "name": "ProcessMessages 1003", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350560, "dur": 83, "ph": "X", "name": "ReadAsync 1003", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350647, "dur": 2, "ph": "X", "name": "ProcessMessages 1140", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350650, "dur": 74, "ph": "X", "name": "ReadAsync 1140", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350728, "dur": 1, "ph": "X", "name": "ProcessMessages 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350731, "dur": 102, "ph": "X", "name": "ReadAsync 864", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350836, "dur": 1, "ph": "X", "name": "ProcessMessages 1384", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350839, "dur": 59, "ph": "X", "name": "ReadAsync 1384", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350901, "dur": 2, "ph": "X", "name": "ProcessMessages 826", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017350904, "dur": 218, "ph": "X", "name": "ReadAsync 826", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351127, "dur": 3, "ph": "X", "name": "ProcessMessages 2050", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351139, "dur": 71, "ph": "X", "name": "ReadAsync 2050", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351214, "dur": 2, "ph": "X", "name": "ProcessMessages 1188", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351217, "dur": 52, "ph": "X", "name": "ReadAsync 1188", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351272, "dur": 1, "ph": "X", "name": "ProcessMessages 911", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351275, "dur": 56, "ph": "X", "name": "ReadAsync 911", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351335, "dur": 1, "ph": "X", "name": "ProcessMessages 719", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351337, "dur": 72, "ph": "X", "name": "ReadAsync 719", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351412, "dur": 2, "ph": "X", "name": "ProcessMessages 1107", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351415, "dur": 56, "ph": "X", "name": "ReadAsync 1107", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351474, "dur": 1, "ph": "X", "name": "ProcessMessages 760", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351477, "dur": 105, "ph": "X", "name": "ReadAsync 760", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351585, "dur": 1, "ph": "X", "name": "ProcessMessages 859", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351588, "dur": 57, "ph": "X", "name": "ReadAsync 859", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351649, "dur": 2, "ph": "X", "name": "ProcessMessages 1509", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351652, "dur": 49, "ph": "X", "name": "ReadAsync 1509", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351704, "dur": 1, "ph": "X", "name": "ProcessMessages 479", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351706, "dur": 70, "ph": "X", "name": "ReadAsync 479", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351779, "dur": 1, "ph": "X", "name": "ProcessMessages 806", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351782, "dur": 65, "ph": "X", "name": "ReadAsync 806", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351850, "dur": 1, "ph": "X", "name": "ProcessMessages 928", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351853, "dur": 54, "ph": "X", "name": "ReadAsync 928", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351911, "dur": 1, "ph": "X", "name": "ProcessMessages 794", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017351914, "dur": 86, "ph": "X", "name": "ReadAsync 794", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352003, "dur": 1, "ph": "X", "name": "ProcessMessages 1231", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352006, "dur": 51, "ph": "X", "name": "ReadAsync 1231", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352061, "dur": 1, "ph": "X", "name": "ProcessMessages 807", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352064, "dur": 128, "ph": "X", "name": "ReadAsync 807", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352195, "dur": 2, "ph": "X", "name": "ProcessMessages 1961", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352198, "dur": 52, "ph": "X", "name": "ReadAsync 1961", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352253, "dur": 1, "ph": "X", "name": "ProcessMessages 829", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352256, "dur": 56, "ph": "X", "name": "ReadAsync 829", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352315, "dur": 1, "ph": "X", "name": "ProcessMessages 828", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352317, "dur": 51, "ph": "X", "name": "ReadAsync 828", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352372, "dur": 1, "ph": "X", "name": "ProcessMessages 752", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352375, "dur": 75, "ph": "X", "name": "ReadAsync 752", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352465, "dur": 2, "ph": "X", "name": "ProcessMessages 1031", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352468, "dur": 58, "ph": "X", "name": "ReadAsync 1031", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352529, "dur": 2, "ph": "X", "name": "ProcessMessages 867", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352532, "dur": 76, "ph": "X", "name": "ReadAsync 867", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352612, "dur": 2, "ph": "X", "name": "ProcessMessages 1038", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352615, "dur": 54, "ph": "X", "name": "ReadAsync 1038", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352672, "dur": 1, "ph": "X", "name": "ProcessMessages 752", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352675, "dur": 57, "ph": "X", "name": "ReadAsync 752", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352735, "dur": 1, "ph": "X", "name": "ProcessMessages 484", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352738, "dur": 67, "ph": "X", "name": "ReadAsync 484", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352808, "dur": 1, "ph": "X", "name": "ProcessMessages 597", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352810, "dur": 49, "ph": "X", "name": "ReadAsync 597", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352863, "dur": 1, "ph": "X", "name": "ProcessMessages 616", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352865, "dur": 58, "ph": "X", "name": "ReadAsync 616", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352927, "dur": 6, "ph": "X", "name": "ProcessMessages 722", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352934, "dur": 55, "ph": "X", "name": "ReadAsync 722", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352993, "dur": 1, "ph": "X", "name": "ProcessMessages 760", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017352995, "dur": 58, "ph": "X", "name": "ReadAsync 760", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353056, "dur": 1, "ph": "X", "name": "ProcessMessages 668", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353059, "dur": 53, "ph": "X", "name": "ReadAsync 668", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353115, "dur": 1, "ph": "X", "name": "ProcessMessages 726", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353117, "dur": 50, "ph": "X", "name": "ReadAsync 726", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353170, "dur": 7, "ph": "X", "name": "ProcessMessages 599", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353213, "dur": 56, "ph": "X", "name": "ReadAsync 599", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353272, "dur": 2, "ph": "X", "name": "ProcessMessages 1106", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353276, "dur": 71, "ph": "X", "name": "ReadAsync 1106", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353350, "dur": 1, "ph": "X", "name": "ProcessMessages 674", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353353, "dur": 74, "ph": "X", "name": "ReadAsync 674", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353429, "dur": 2, "ph": "X", "name": "ProcessMessages 818", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353433, "dur": 59, "ph": "X", "name": "ReadAsync 818", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353495, "dur": 1, "ph": "X", "name": "ProcessMessages 702", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353497, "dur": 85, "ph": "X", "name": "ReadAsync 702", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353586, "dur": 2, "ph": "X", "name": "ProcessMessages 980", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353589, "dur": 48, "ph": "X", "name": "ReadAsync 980", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353641, "dur": 1, "ph": "X", "name": "ProcessMessages 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017353643, "dur": 2092, "ph": "X", "name": "ReadAsync 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017355740, "dur": 3, "ph": "X", "name": "ProcessMessages 224", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017355744, "dur": 169, "ph": "X", "name": "ReadAsync 224", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017355917, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017355920, "dur": 86, "ph": "X", "name": "ReadAsync 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356010, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356013, "dur": 110, "ph": "X", "name": "ReadAsync 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356127, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356130, "dur": 127, "ph": "X", "name": "ReadAsync 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356262, "dur": 1, "ph": "X", "name": "ProcessMessages 108", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356265, "dur": 77, "ph": "X", "name": "ReadAsync 108", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356346, "dur": 1, "ph": "X", "name": "ProcessMessages 52", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356349, "dur": 110, "ph": "X", "name": "ReadAsync 52", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356462, "dur": 2, "ph": "X", "name": "ProcessMessages 128", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356466, "dur": 99, "ph": "X", "name": "ReadAsync 128", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356569, "dur": 2, "ph": "X", "name": "ProcessMessages 144", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356573, "dur": 173, "ph": "X", "name": "ReadAsync 144", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356749, "dur": 2, "ph": "X", "name": "ProcessMessages 192", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017356753, "dur": 2250, "ph": "X", "name": "ReadAsync 192", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359012, "dur": 14, "ph": "X", "name": "ProcessMessages 1360", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359041, "dur": 78, "ph": "X", "name": "ReadAsync 1360", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359122, "dur": 1, "ph": "X", "name": "ProcessMessages 96", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359125, "dur": 192, "ph": "X", "name": "ReadAsync 96", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359321, "dur": 3, "ph": "X", "name": "ProcessMessages 252", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359326, "dur": 388, "ph": "X", "name": "ReadAsync 252", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359719, "dur": 13, "ph": "X", "name": "ProcessMessages 756", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359734, "dur": 54, "ph": "X", "name": "ReadAsync 756", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359793, "dur": 3, "ph": "X", "name": "ProcessMessages 268", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359797, "dur": 92, "ph": "X", "name": "ReadAsync 268", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359892, "dur": 2, "ph": "X", "name": "ProcessMessages 160", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359896, "dur": 87, "ph": "X", "name": "ReadAsync 160", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359987, "dur": 2, "ph": "X", "name": "ProcessMessages 144", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017359990, "dur": 277, "ph": "X", "name": "ReadAsync 144", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360270, "dur": 2, "ph": "X", "name": "ProcessMessages 164", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360274, "dur": 161, "ph": "X", "name": "ReadAsync 164", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360438, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360441, "dur": 435, "ph": "X", "name": "ReadAsync 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360880, "dur": 2, "ph": "X", "name": "ProcessMessages 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017360883, "dur": 156, "ph": "X", "name": "ReadAsync 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361042, "dur": 1, "ph": "X", "name": "ProcessMessages 100", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361045, "dur": 379, "ph": "X", "name": "ReadAsync 100", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361428, "dur": 1, "ph": "X", "name": "ProcessMessages 44", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361431, "dur": 240, "ph": "X", "name": "ReadAsync 44", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361675, "dur": 3, "ph": "X", "name": "ProcessMessages 228", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017361679, "dur": 372, "ph": "X", "name": "ReadAsync 228", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362055, "dur": 2, "ph": "X", "name": "ProcessMessages 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362058, "dur": 284, "ph": "X", "name": "ReadAsync 156", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362346, "dur": 2, "ph": "X", "name": "ProcessMessages 196", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362350, "dur": 151, "ph": "X", "name": "ReadAsync 196", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362505, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362507, "dur": 235, "ph": "X", "name": "ReadAsync 80", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362747, "dur": 2, "ph": "X", "name": "ProcessMessages 128", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362750, "dur": 130, "ph": "X", "name": "ReadAsync 128", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362884, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017362886, "dur": 147, "ph": "X", "name": "ReadAsync 48", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363036, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363038, "dur": 178, "ph": "X", "name": "ReadAsync 64", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363220, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363223, "dur": 245, "ph": "X", "name": "ReadAsync 112", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363472, "dur": 1, "ph": "X", "name": "ProcessMessages 92", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363475, "dur": 336, "ph": "X", "name": "ReadAsync 92", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363815, "dur": 2, "ph": "X", "name": "ProcessMessages 164", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363818, "dur": 149, "ph": "X", "name": "ReadAsync 164", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363971, "dur": 1, "ph": "X", "name": "ProcessMessages 25", "args": {} },
-{ "pid": 2811, "tid": 68719476736, "ts": 1740374017363973, "dur": 7522, "ph": "X", "name": "ReadAsync 25", "args": {} },
-{ "pid": 2811, "tid": 1066479, "ts": 1740374017374163, "dur": 1530, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
-{ "pid": 2811, "tid": 64424509440, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
-{ "pid": 2811, "tid": 64424509440, "ts": 1740374017287496, "dur": 84595, "ph": "X", "name": "RunBackend", "args": {} },
-{ "pid": 2811, "tid": 64424509440, "ts": 1740374017288008, "dur": 37883, "ph": "X", "name": "BackendProgram.Start", "args": {} },
-{ "pid": 2811, "tid": 64424509440, "ts": 1740374017372095, "dur": 20, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
-{ "pid": 2811, "tid": 64424509440, "ts": 1740374017372116, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
-{ "pid": 2811, "tid": 1066479, "ts": 1740374017375717, "dur": 9, "ph": "X", "name": "BuildAsync", "args": {} },
-{ "pid": 2811, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 2811, "tid": 1, "ts": 1740374017242058, "dur": 3480, "ph": "X", "name": "<Add>b__0", "args": {} },
-{ "pid": 2811, "tid": 1, "ts": 1740374017245543, "dur": 39663, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
-{ "pid": 2811, "tid": 1, "ts": 1740374017285207, "dur": 2255, "ph": "X", "name": "WriteJson", "args": {} },
-{ "pid": 2811, "tid": 1066479, "ts": 1740374017375817, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360425697, "dur": 10505, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360436203, "dur": 907042, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360436223, "dur": 256, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360436501, "dur": 27, "ph": "X", "name": "ProcessMessages 63", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360436531, "dur": 6692, "ph": "X", "name": "ReadAsync 63", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443246, "dur": 5, "ph": "X", "name": "ProcessMessages 1759", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443253, "dur": 89, "ph": "X", "name": "ReadAsync 1759", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443359, "dur": 2, "ph": "X", "name": "ProcessMessages 1134", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443362, "dur": 60, "ph": "X", "name": "ReadAsync 1134", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443440, "dur": 2, "ph": "X", "name": "ProcessMessages 422", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443444, "dur": 112, "ph": "X", "name": "ReadAsync 422", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443574, "dur": 3, "ph": "X", "name": "ProcessMessages 1039", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443578, "dur": 109, "ph": "X", "name": "ReadAsync 1039", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443691, "dur": 1, "ph": "X", "name": "ProcessMessages 847", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443694, "dur": 64, "ph": "X", "name": "ReadAsync 847", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443762, "dur": 2, "ph": "X", "name": "ProcessMessages 909", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443765, "dur": 60, "ph": "X", "name": "ReadAsync 909", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443829, "dur": 2, "ph": "X", "name": "ProcessMessages 750", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443832, "dur": 83, "ph": "X", "name": "ReadAsync 750", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443918, "dur": 2, "ph": "X", "name": "ProcessMessages 1007", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360443921, "dur": 98, "ph": "X", "name": "ReadAsync 1007", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444029, "dur": 2, "ph": "X", "name": "ProcessMessages 1193", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444033, "dur": 101, "ph": "X", "name": "ReadAsync 1193", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444146, "dur": 2, "ph": "X", "name": "ProcessMessages 1106", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444150, "dur": 141, "ph": "X", "name": "ReadAsync 1106", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444331, "dur": 2, "ph": "X", "name": "ProcessMessages 1231", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444336, "dur": 124, "ph": "X", "name": "ReadAsync 1231", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444473, "dur": 3, "ph": "X", "name": "ProcessMessages 1889", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444478, "dur": 184, "ph": "X", "name": "ReadAsync 1889", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444666, "dur": 4, "ph": "X", "name": "ProcessMessages 2288", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444672, "dur": 63, "ph": "X", "name": "ReadAsync 2288", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444739, "dur": 1, "ph": "X", "name": "ProcessMessages 425", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444742, "dur": 78, "ph": "X", "name": "ReadAsync 425", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444824, "dur": 2, "ph": "X", "name": "ProcessMessages 821", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444828, "dur": 77, "ph": "X", "name": "ReadAsync 821", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444909, "dur": 1, "ph": "X", "name": "ProcessMessages 887", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444912, "dur": 63, "ph": "X", "name": "ReadAsync 887", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444978, "dur": 2, "ph": "X", "name": "ProcessMessages 663", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360444981, "dur": 93, "ph": "X", "name": "ReadAsync 663", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445078, "dur": 2, "ph": "X", "name": "ProcessMessages 957", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445082, "dur": 87, "ph": "X", "name": "ReadAsync 957", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445173, "dur": 2, "ph": "X", "name": "ProcessMessages 954", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445176, "dur": 83, "ph": "X", "name": "ReadAsync 954", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445263, "dur": 1, "ph": "X", "name": "ProcessMessages 957", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445266, "dur": 107, "ph": "X", "name": "ReadAsync 957", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445377, "dur": 1, "ph": "X", "name": "ProcessMessages 726", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445380, "dur": 82, "ph": "X", "name": "ReadAsync 726", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445466, "dur": 2, "ph": "X", "name": "ProcessMessages 835", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445470, "dur": 77, "ph": "X", "name": "ReadAsync 835", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445550, "dur": 2, "ph": "X", "name": "ProcessMessages 820", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445554, "dur": 57, "ph": "X", "name": "ReadAsync 820", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445614, "dur": 1, "ph": "X", "name": "ProcessMessages 696", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445665, "dur": 86, "ph": "X", "name": "ReadAsync 696", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445755, "dur": 2, "ph": "X", "name": "ProcessMessages 1357", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445758, "dur": 62, "ph": "X", "name": "ReadAsync 1357", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445824, "dur": 2, "ph": "X", "name": "ProcessMessages 784", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445828, "dur": 51, "ph": "X", "name": "ReadAsync 784", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445883, "dur": 1, "ph": "X", "name": "ProcessMessages 420", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445886, "dur": 63, "ph": "X", "name": "ReadAsync 420", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445953, "dur": 1, "ph": "X", "name": "ProcessMessages 778", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360445955, "dur": 114, "ph": "X", "name": "ReadAsync 778", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446073, "dur": 3, "ph": "X", "name": "ProcessMessages 1360", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446078, "dur": 693, "ph": "X", "name": "ReadAsync 1360", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446775, "dur": 10, "ph": "X", "name": "ProcessMessages 7434", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446787, "dur": 77, "ph": "X", "name": "ReadAsync 7434", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446867, "dur": 2, "ph": "X", "name": "ProcessMessages 852", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446871, "dur": 63, "ph": "X", "name": "ReadAsync 852", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446937, "dur": 1, "ph": "X", "name": "ProcessMessages 1044", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446940, "dur": 51, "ph": "X", "name": "ReadAsync 1044", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446995, "dur": 1, "ph": "X", "name": "ProcessMessages 611", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360446997, "dur": 61, "ph": "X", "name": "ReadAsync 611", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447062, "dur": 1, "ph": "X", "name": "ProcessMessages 755", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447065, "dur": 51, "ph": "X", "name": "ReadAsync 755", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447120, "dur": 1, "ph": "X", "name": "ProcessMessages 715", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447122, "dur": 764, "ph": "X", "name": "ReadAsync 715", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447892, "dur": 9, "ph": "X", "name": "ProcessMessages 8157", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447903, "dur": 78, "ph": "X", "name": "ReadAsync 8157", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447985, "dur": 1, "ph": "X", "name": "ProcessMessages 872", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360447988, "dur": 96, "ph": "X", "name": "ReadAsync 872", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360448088, "dur": 2, "ph": "X", "name": "ProcessMessages 839", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360448092, "dur": 1357, "ph": "X", "name": "ReadAsync 839", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449453, "dur": 9, "ph": "X", "name": "ProcessMessages 8119", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449464, "dur": 66, "ph": "X", "name": "ReadAsync 8119", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449533, "dur": 1, "ph": "X", "name": "ProcessMessages 740", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449536, "dur": 71, "ph": "X", "name": "ReadAsync 740", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449610, "dur": 1, "ph": "X", "name": "ProcessMessages 1084", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360449612, "dur": 497, "ph": "X", "name": "ReadAsync 1084", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450114, "dur": 6, "ph": "X", "name": "ProcessMessages 5648", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450122, "dur": 52, "ph": "X", "name": "ReadAsync 5648", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450192, "dur": 1, "ph": "X", "name": "ProcessMessages 754", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450195, "dur": 54, "ph": "X", "name": "ReadAsync 754", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450253, "dur": 1, "ph": "X", "name": "ProcessMessages 862", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450256, "dur": 66, "ph": "X", "name": "ReadAsync 862", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450325, "dur": 2, "ph": "X", "name": "ProcessMessages 1159", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450328, "dur": 661, "ph": "X", "name": "ReadAsync 1159", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360450992, "dur": 17, "ph": "X", "name": "ProcessMessages 8170", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451012, "dur": 78, "ph": "X", "name": "ReadAsync 8170", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451094, "dur": 1, "ph": "X", "name": "ProcessMessages 801", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451096, "dur": 52, "ph": "X", "name": "ReadAsync 801", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451152, "dur": 1, "ph": "X", "name": "ProcessMessages 949", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451155, "dur": 52, "ph": "X", "name": "ReadAsync 949", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451210, "dur": 1, "ph": "X", "name": "ProcessMessages 907", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451213, "dur": 129, "ph": "X", "name": "ReadAsync 907", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451346, "dur": 2, "ph": "X", "name": "ProcessMessages 1458", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451350, "dur": 81, "ph": "X", "name": "ReadAsync 1458", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451435, "dur": 1, "ph": "X", "name": "ProcessMessages 1223", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451438, "dur": 54, "ph": "X", "name": "ReadAsync 1223", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451495, "dur": 1, "ph": "X", "name": "ProcessMessages 979", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451498, "dur": 60, "ph": "X", "name": "ReadAsync 979", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451562, "dur": 1, "ph": "X", "name": "ProcessMessages 990", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451565, "dur": 69, "ph": "X", "name": "ReadAsync 990", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451638, "dur": 2, "ph": "X", "name": "ProcessMessages 937", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451641, "dur": 85, "ph": "X", "name": "ReadAsync 937", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451730, "dur": 2, "ph": "X", "name": "ProcessMessages 878", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451733, "dur": 70, "ph": "X", "name": "ReadAsync 878", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451806, "dur": 1, "ph": "X", "name": "ProcessMessages 963", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451809, "dur": 53, "ph": "X", "name": "ReadAsync 963", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451866, "dur": 1, "ph": "X", "name": "ProcessMessages 889", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360451869, "dur": 154, "ph": "X", "name": "ReadAsync 889", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452026, "dur": 3, "ph": "X", "name": "ProcessMessages 2503", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452031, "dur": 49, "ph": "X", "name": "ReadAsync 2503", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452084, "dur": 1, "ph": "X", "name": "ProcessMessages 596", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452086, "dur": 52, "ph": "X", "name": "ReadAsync 596", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452142, "dur": 1, "ph": "X", "name": "ProcessMessages 763", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452144, "dur": 75, "ph": "X", "name": "ReadAsync 763", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452223, "dur": 2, "ph": "X", "name": "ProcessMessages 1175", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452226, "dur": 55, "ph": "X", "name": "ReadAsync 1175", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452285, "dur": 1, "ph": "X", "name": "ProcessMessages 690", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452288, "dur": 60, "ph": "X", "name": "ReadAsync 690", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452351, "dur": 1, "ph": "X", "name": "ProcessMessages 841", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360452354, "dur": 734, "ph": "X", "name": "ReadAsync 841", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453093, "dur": 10, "ph": "X", "name": "ProcessMessages 8145", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453105, "dur": 61, "ph": "X", "name": "ReadAsync 8145", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453170, "dur": 1, "ph": "X", "name": "ProcessMessages 779", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453173, "dur": 46, "ph": "X", "name": "ReadAsync 779", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453223, "dur": 1, "ph": "X", "name": "ProcessMessages 575", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453225, "dur": 56, "ph": "X", "name": "ReadAsync 575", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453483, "dur": 1, "ph": "X", "name": "ProcessMessages 774", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453486, "dur": 84, "ph": "X", "name": "ReadAsync 774", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453581, "dur": 4, "ph": "X", "name": "ProcessMessages 2794", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453587, "dur": 60, "ph": "X", "name": "ReadAsync 2794", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453650, "dur": 1, "ph": "X", "name": "ProcessMessages 692", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453653, "dur": 64, "ph": "X", "name": "ReadAsync 692", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453720, "dur": 2, "ph": "X", "name": "ProcessMessages 1023", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453723, "dur": 55, "ph": "X", "name": "ReadAsync 1023", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453782, "dur": 1, "ph": "X", "name": "ProcessMessages 417", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453784, "dur": 92, "ph": "X", "name": "ReadAsync 417", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453880, "dur": 1, "ph": "X", "name": "ProcessMessages 994", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360453883, "dur": 7785, "ph": "X", "name": "ReadAsync 994", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461677, "dur": 14, "ph": "X", "name": "ProcessMessages 8184", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461693, "dur": 110, "ph": "X", "name": "ReadAsync 8184", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461809, "dur": 2, "ph": "X", "name": "ProcessMessages 522", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461812, "dur": 86, "ph": "X", "name": "ReadAsync 522", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461916, "dur": 2, "ph": "X", "name": "ProcessMessages 698", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360461927, "dur": 72, "ph": "X", "name": "ReadAsync 698", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462003, "dur": 1, "ph": "X", "name": "ProcessMessages 923", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462006, "dur": 61, "ph": "X", "name": "ReadAsync 923", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462071, "dur": 1, "ph": "X", "name": "ProcessMessages 362", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462073, "dur": 103, "ph": "X", "name": "ReadAsync 362", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462181, "dur": 2, "ph": "X", "name": "ProcessMessages 998", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462184, "dur": 64, "ph": "X", "name": "ReadAsync 998", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462252, "dur": 1, "ph": "X", "name": "ProcessMessages 71", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360462255, "dur": 2853, "ph": "X", "name": "ReadAsync 71", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465118, "dur": 4, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465124, "dur": 188, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465318, "dur": 3, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465323, "dur": 139, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465467, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465470, "dur": 188, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465663, "dur": 2, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360465666, "dur": 888, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360466561, "dur": 4, "ph": "X", "name": "ProcessMessages 40", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360466566, "dur": 102, "ph": "X", "name": "ReadAsync 40", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360466673, "dur": 3160, "ph": "X", "name": "ProcessMessages 58", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360469841, "dur": 144, "ph": "X", "name": "ReadAsync 58", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360469989, "dur": 73, "ph": "X", "name": "ProcessMessages 1982", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360470065, "dur": 137, "ph": "X", "name": "ReadAsync 1982", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360475896, "dur": 17, "ph": "X", "name": "ProcessMessages 352", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360475928, "dur": 208, "ph": "X", "name": "ReadAsync 352", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360476142, "dur": 24, "ph": "X", "name": "ProcessMessages 3236", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360476167, "dur": 266883, "ph": "X", "name": "ReadAsync 3236", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360743063, "dur": 40, "ph": "X", "name": "ProcessMessages 542", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360743108, "dur": 2905, "ph": "X", "name": "ReadAsync 542", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360746023, "dur": 3, "ph": "X", "name": "ProcessMessages 20", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360746029, "dur": 358, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360746393, "dur": 10, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360746405, "dur": 1168, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360747581, "dur": 3, "ph": "X", "name": "ProcessMessages 20", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615360747586, "dur": 588119, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361335715, "dur": 32, "ph": "X", "name": "ProcessMessages 549", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361335750, "dur": 65, "ph": "X", "name": "ReadAsync 549", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361335822, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361335824, "dur": 545, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361336375, "dur": 1, "ph": "X", "name": "ProcessMessages 25", "args": {} },
+{ "pid": 632, "tid": 34359738368, "ts": 1740615361336378, "dur": 6864, "ph": "X", "name": "ReadAsync 25", "args": {} },
+{ "pid": 632, "tid": 184564, "ts": 1740615361344693, "dur": 1040, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 632, "tid": 30064771072, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 632, "tid": 30064771072, "ts": 1740615360407924, "dur": 935946, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 632, "tid": 30064771072, "ts": 1740615360408368, "dur": 16465, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 632, "tid": 30064771072, "ts": 1740615361343873, "dur": 12, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 632, "tid": 30064771072, "ts": 1740615361343895, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 632, "tid": 184564, "ts": 1740615361345736, "dur": 8, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 632, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 632, "tid": 1, "ts": 1740615360312048, "dur": 2877, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 632, "tid": 1, "ts": 1740615360314931, "dur": 90678, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 632, "tid": 1, "ts": 1740615360405611, "dur": 2279, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 632, "tid": 184564, "ts": 1740615361345747, "dur": 9, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1740374017338866, "dur":92, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017339065, "dur":2896, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017342107, "dur":518, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017342674, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1740374017342727, "dur":162, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017343713, "dur":654, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1740374017349377, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info" }}
-,{ "pid":12345, "tid":0, "ts":1740374017349749, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info" }}
-,{ "pid":12345, "tid":0, "ts":1740374017342906, "dur":11614, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017354545, "dur":10156, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740374017364799, "dur":2018, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1740374017342867, "dur":11695, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017354575, "dur":1715, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017356351, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MergeApplePrivacyManifests Library/Bee/artifacts/MacStandalonePlayerBuildProgram/PrivacyInfo.xcprivacy (+1 other)" }}
-,{ "pid":12345, "tid":1, "ts":1740374017356707, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357053, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357242, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357349, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357449, "dur":140, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357680, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357941, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017357992, "dur":289, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017358621, "dur":463, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359088, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359086, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359563, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359562, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359619, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017359997, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360140, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_zz9e.info" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360230, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_7g7q.info" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360654, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_ar7j.info" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360738, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360823, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info" }}
-,{ "pid":12345, "tid":1, "ts":1740374017360943, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017361336, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740374017361067, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignBundleInPlace Builds/TestBuild.app/Contents/MacOS/MultiplayerProject (+1 other)" }}
-,{ "pid":12345, "tid":1, "ts":1740374017361593, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017361860, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017361996, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362114, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362232, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362389, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362491, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362627, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362788, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017362907, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363028, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363169, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363285, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363350, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363476, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Mathematics-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363613, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363833, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017363995, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017364094, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017364235, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017364366, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017364428, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":1, "ts":1740374017364527, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017342875, "dur":11704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017354593, "dur":366, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017354959, "dur":300, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017355259, "dur":404, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017355664, "dur":662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017356416, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy Builds/TestBuild.app/Contents/Frameworks/UnityPlayer.dylib" }}
-,{ "pid":12345, "tid":2, "ts":1740374017356732, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1740374017356730, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1740374017356943, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357166, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Builds/TestBuild.app/Contents/Info.plist" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357570, "dur":192, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357767, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357764, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357828, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017357977, "dur":181, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017358341, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017358456, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017358454, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017358817, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017358816, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017359065, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017359064, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017359325, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017359323, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017360694, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info" }}
-,{ "pid":12345, "tid":2, "ts":1740374017360893, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361057, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361239, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361386, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361500, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361615, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361768, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017361919, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362070, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362210, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362341, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362398, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362513, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362641, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362775, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017362892, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363036, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363152, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363408, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363310, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363481, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363606, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst.Unsafe-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363743, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017363880, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017364018, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017364151, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017364273, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017364388, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":2, "ts":1740374017364488, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017342870, "dur":11699, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740374017354574, "dur":391, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740374017354965, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740374017355249, "dur":399, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740374017355648, "dur":668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740374017356749, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017356833, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017356928, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017357059, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017357284, "dur":394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017357679, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017357875, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017358069, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017358496, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017358610, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017358729, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017359016, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017359490, "dur":404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017356326, "dur":3806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/MacStandalonePlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":3, "ts":1740374017360610, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info" }}
-,{ "pid":12345, "tid":3, "ts":1740374017360908, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361030, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361162, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361306, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361431, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361549, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361686, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361844, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017361979, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362138, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362272, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362460, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362578, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362724, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362827, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017362943, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363053, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363176, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363303, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Networking.Transport-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363403, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363521, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363645, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363770, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017363888, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364013, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364128, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364264, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364262, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364460, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":3, "ts":1740374017364550, "dur":162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017342892, "dur":11711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017354605, "dur":354, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017354960, "dur":300, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017355260, "dur":179, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017355439, "dur":870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740374017356376, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1740374017356749, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017357002, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017357057, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017357297, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017357686, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017357890, "dur":537, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017358442, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017358681, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017358778, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017359021, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017359285, "dur":427, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740374017356370, "dur":3723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1740374017360778, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info" }}
-,{ "pid":12345, "tid":4, "ts":1740374017360902, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361022, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361173, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361353, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361447, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361568, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361717, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361846, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017361949, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362108, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362217, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362351, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362488, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362646, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Netcode.Runtime-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362756, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362868, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017362984, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363088, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363199, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Netcode.Components-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363309, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363421, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363529, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363682, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017363859, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017364012, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017364136, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017364377, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":4, "ts":1740374017364475, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1740374017371531, "dur":343, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 2811, "tid": 1066479, "ts": 1740374017376008, "dur": 87, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
-{ "pid": 2811, "tid": 1066479, "ts": 1740374017376398, "dur": 624, "ph": "X", "name": "backend1.traceevents", "args": {} },
-{ "pid": 2811, "tid": 1066479, "ts": 1740374017374110, "dur": 2966, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1740615360432286, "dur":83, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615360432487, "dur":4107, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615360436635, "dur":6269, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615360442987, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1740615360443041, "dur":126, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615360447978, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1740615360448942, "dur":725, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1740615360450975, "dur":230, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1740615360453003, "dur":295, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1740615360454979, "dur":6924, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1740615360443178, "dur":19209, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615360462436, "dur":873540, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615361336424, "dur":1757, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1740615360443146, "dur":19313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360462464, "dur":2177, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360464663, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/PrivacyInfo.xcprivacy_kghi.info" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465006, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MergeApplePrivacyManifests Library/Bee/artifacts/MacStandalonePlayerBuildProgram/PrivacyInfo.xcprivacy (+1 other)" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465176, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465175, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465424, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465422, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1740615360465622, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1740615360466839, "dur":454, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360466405, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1740615360467329, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1740615360468255, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1740615360468728, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740615360468855, "dur":215, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740615360469101, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360469295, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360469396, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740615360470161, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471243, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471392, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471513, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471615, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471714, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471813, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360471915, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472016, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472132, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472237, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472337, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472465, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472594, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472704, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360472823, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473071, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473182, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473314, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473412, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473573, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473675, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473799, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360473906, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Networking.Transport-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474005, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Netcode.Components-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474099, "dur":128, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Netcode.Components-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474229, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Netcode.Runtime-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474364, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474490, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474615, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474587, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474801, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360474934, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475041, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475182, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475288, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475414, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475506, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475609, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1740615360475765, "dur":860224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360443155, "dur":19315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360462476, "dur":444, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360462921, "dur":305, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360463226, "dur":443, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360463669, "dur":1017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360464687, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/lib_burst_generated.bundle_yxj2.info" }}
+,{ "pid":12345, "tid":2, "ts":1740615360464983, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/lib_burst_generated.bundle_yxj2.info" }}
+,{ "pid":12345, "tid":2, "ts":1740615360465100, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy Builds/TestBuild.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":2, "ts":1740615360465281, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1740615360465280, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1740615360465506, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1740615360466131, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1740615360466736, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1740615360466877, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1740615360467346, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1740615360468192, "dur":175, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1740615360468386, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1740615360469063, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360469239, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360469329, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740615360469403, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740615360470507, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_0bzp.info" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471251, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471355, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471415, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471551, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471645, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471743, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471836, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360471931, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472021, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472123, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472215, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472322, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472436, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472582, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472691, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472818, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360472925, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473026, "dur":116, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473168, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473144, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473428, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473527, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473642, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473754, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473852, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360473976, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474067, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474192, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474323, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474436, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474552, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474656, "dur":173, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474830, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360474946, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475049, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475142, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475251, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475351, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475468, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475568, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475693, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1740615360475820, "dur":860134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360443157, "dur":19326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360462504, "dur":424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360462929, "dur":303, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360463233, "dur":189, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360463422, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360464671, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_l6pt.info" }}
+,{ "pid":12345, "tid":3, "ts":1740615360465002, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal/Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360465118, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1740615360465537, "dur":459, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466001, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466184, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466460, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466562, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466684, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360466934, "dur":534, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360467470, "dur":791, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740615360464995, "dur":3467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360468786, "dur":62, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360468852, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360742967, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740615360469258, "dur":273828, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360745935, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360745933, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360746018, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360746509, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1740615360746455, "dur":871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignBundleInPlace Builds/TestBuild.app/Contents/MacOS/MultiplayerProject (+1 other)" }}
+,{ "pid":12345, "tid":3, "ts":1740615360747886, "dur":587911, "ph":"X", "name": "MacOSCodeSignBundleInPlace",  "args": { "detail":"Builds/TestBuild.app/Contents/MacOS/MultiplayerProject (+1 other)" }}
+,{ "pid":12345, "tid":4, "ts":1740615360443177, "dur":19315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360462493, "dur":422, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360462916, "dur":305, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360463221, "dur":411, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360463632, "dur":1043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360465088, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360465158, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360465389, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360465770, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360465976, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360466156, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360466495, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360466580, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360466684, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360466958, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360467182, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360467704, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360467949, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360464681, "dur":3455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/MacStandalonePlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1740615360468150, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/MacStandalonePlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1740615360468563, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TestBuild.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1740615360469227, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360469337, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360469483, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740615360469615, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740615360470711, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471233, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471373, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471483, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471598, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471699, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471800, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360471901, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472003, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472105, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472210, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472322, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472416, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472559, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472695, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472800, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360472904, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473032, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473131, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473261, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473419, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473513, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473646, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473802, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360473946, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474090, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474168, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474286, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Mathematics-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474410, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst.Unsafe-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474523, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474628, "dur":92, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474722, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474824, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360474924, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475044, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475149, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475243, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475369, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475491, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475589, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1740615360475724, "dur":860234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740615361342565, "dur":381, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 632, "tid": 184564, "ts": 1740615361345921, "dur": 43, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 632, "tid": 184564, "ts": 1740615361346038, "dur": 436, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 632, "tid": 184564, "ts": 1740615361344674, "dur": 1828, "ph": "X", "name": "Write chrome-trace events", "args": {} },

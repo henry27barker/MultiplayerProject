@@ -597,8 +597,8 @@
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll",
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
@@ -607,9 +607,9 @@
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.burst@1.8.18/Unity.Burst.Unsafe.dll",
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Facades/System.Runtime.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Facades/netstandard.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Mono.Security.dll",
@@ -1542,18 +1542,6 @@
       "DebugActionIndex": 83
     },
     {
-      "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
-      "DisplayName": "Copying UnityEngine.UI.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
-      ],
-      "Outputs": [
-        "Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll"
-      ],
-      "DebugActionIndex": 84
-    },
-    {
       "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Networking.Transport.dll",
       "DisplayName": "Copying Unity.Networking.Transport.dll",
       "ActionType": "CopyFiles",
@@ -1562,6 +1550,18 @@
       ],
       "Outputs": [
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Networking.Transport.dll"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll"
       ],
       "DebugActionIndex": 85
     },
@@ -1662,6 +1662,18 @@
       "DebugActionIndex": 93
     },
     {
+      "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "DisplayName": "Copying Unity.Collections.LowLevel.ILSupport.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+      ],
+      "Outputs": [
+        "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
       "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
@@ -1671,7 +1683,7 @@
       "Outputs": [
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Burst.Unsafe.dll",
@@ -1682,18 +1694,6 @@
       ],
       "Outputs": [
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Burst.Unsafe.dll"
-      ],
-      "DebugActionIndex": 95
-    },
-    {
-      "Annotation": "CopyFiles Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
-      "DisplayName": "Copying Unity.Collections.LowLevel.ILSupport.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
-      ],
-      "Outputs": [
-        "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
       ],
       "DebugActionIndex": 96
     },
@@ -7002,89 +7002,17 @@
       "DebugActionIndex": 258
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
-      "DisplayName": "Writing UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 94588,
-      "PayloadLength": 937,
-      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info"
-      ],
-      "DebugActionIndex": 259
-    },
-    {
-      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt",
-      "DisplayName": "ExtractUsedFeatures UnityEngine.UI-FeaturesChecked",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info\"",
-      "Inputs": [
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeLocalCacheTool",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt"
-      ],
-      "ToBuildDependencies": [
-        259
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 260
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Networking.Transport-FeaturesChecked.txt_4gnf.info",
       "DisplayName": "Writing Unity.Networking.Transport-FeaturesChecked.txt_4gnf.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 95649,
+      "PayloadOffset": 94600,
       "PayloadLength": 961,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.Networking.Transport-FeaturesChecked.txt_4gnf.info"
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Networking.Transport-FeaturesChecked.txt",
@@ -7136,6 +7064,78 @@
       ],
       "Outputs": [
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Networking.Transport-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        259
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 260
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
+      "DisplayName": "Writing UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 95673,
+      "PayloadLength": 937,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info"
+      ],
+      "DebugActionIndex": 261
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures UnityEngine.UI-FeaturesChecked",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info\"",
+      "Inputs": [
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeLocalCacheTool",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
         261
@@ -7722,17 +7722,89 @@
       "DebugActionIndex": 278
     },
     {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
+      "DisplayName": "Writing Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 105289,
+      "PayloadLength": 1032,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info"
+      ],
+      "DebugActionIndex": 279
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures Unity.Collections.LowLevel.ILSupport-FeaturesChecked",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info\"",
+      "Inputs": [
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeLocalCacheTool",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.pdb",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        279
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 280
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info",
       "DisplayName": "Writing Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105289,
+      "PayloadOffset": 106455,
       "PayloadLength": 1047,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info"
       ],
-      "DebugActionIndex": 279
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt",
@@ -7786,25 +7858,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        279
+        281
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Unsafe-FeaturesChecked.txt_p56z.info",
       "DisplayName": "Writing Unity.Burst.Unsafe-FeaturesChecked.txt_p56z.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 106452,
+      "PayloadOffset": 107618,
       "PayloadLength": 954,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Unsafe-FeaturesChecked.txt_p56z.info"
       ],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst.Unsafe-FeaturesChecked.txt",
@@ -7856,78 +7928,6 @@
       ],
       "Outputs": [
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Burst.Unsafe-FeaturesChecked.txt"
-      ],
-      "ToBuildDependencies": [
-        281
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 282
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
-      "DisplayName": "Writing Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 107540,
-      "PayloadLength": 1032,
-      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info"
-      ],
-      "DebugActionIndex": 283
-    },
-    {
-      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt",
-      "DisplayName": "ExtractUsedFeatures Unity.Collections.LowLevel.ILSupport-FeaturesChecked",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info\"",
-      "Inputs": [
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
-        "Library/Bee/artifacts/csharpactions/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt_krlt.info",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/BeeLocalCacheTool",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.pdb",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Collections.LowLevel.ILSupport-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
         283
@@ -9600,8 +9600,8 @@
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll",
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
@@ -9610,9 +9610,9 @@
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.burst@1.8.18/Unity.Burst.Unsafe.dll",
-        "/Users/henrybarker/CS596GameDev/MultiplayerProjectGit/MultiplayerProject/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Facades/System.Runtime.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Facades/netstandard.dll",
         "/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos/Mono.Security.dll",
@@ -10259,8 +10259,8 @@
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Burst.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll",
-        "Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Networking.Transport.dll",
+        "Builds/TestBuild.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Netcode.Components.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
@@ -10269,9 +10269,9 @@
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Mathematics.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll",
+        "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Burst.Unsafe.dll",
-        "Builds/TestBuild.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/System.Runtime.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/netstandard.dll",
         "Builds/TestBuild.app/Contents/Resources/Data/Managed/Mono.Security.dll",
