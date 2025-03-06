@@ -106,11 +106,25 @@ public class GameManager : MonoBehaviour
 
     private void LaunchPuck()
     {
-        Vector3 randomDirection = Random.insideUnitCircle.normalized; // Random 2D direction
-        puckRb.velocity = new Vector3(randomDirection.x, 0, randomDirection.y) * launchSpeed;
+        float angle = GetValidLaunchAngle();
+        Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)); // Convert angle to vector
 
+        puckRb.velocity = new Vector3(direction.x, 0, direction.y) * launchSpeed;
         gameStarted = true;
     }
+
+    private float GetValidLaunchAngle()
+    {
+        float[] validAngles = { 
+            Random.Range(30f, 60f),     // Top-right
+            Random.Range(120f, 150f),   // Top-left
+            Random.Range(210f, 240f),   // Bottom-left
+            Random.Range(300f, 330f)    // Bottom-right
+        };
+
+        return validAngles[Random.Range(0, validAngles.Length)] * Mathf.Deg2Rad; // Convert to radians
+    }
+
 
     private void MaintainMinSpeed()
     {

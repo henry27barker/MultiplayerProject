@@ -107,41 +107,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17324}
+      Script: {instanceID: 16650}
     - Class: 114
-      Script: {instanceID: 17458}
+      Script: {instanceID: 17326}
     - Class: 114
-      Script: {instanceID: 17530}
+      Script: {instanceID: 17460}
     - Class: 114
-      Script: {instanceID: 17994}
+      Script: {instanceID: 17532}
     - Class: 114
-      Script: {instanceID: 18248}
+      Script: {instanceID: 17996}
     - Class: 114
-      Script: {instanceID: 18588}
+      Script: {instanceID: 18250}
     - Class: 114
-      Script: {instanceID: 19870}
+      Script: {instanceID: 18590}
     - Class: 114
-      Script: {instanceID: 20134}
+      Script: {instanceID: 19872}
     - Class: 114
-      Script: {instanceID: 20192}
+      Script: {instanceID: 20136}
     - Class: 114
-      Script: {instanceID: 20384}
+      Script: {instanceID: 20194}
     - Class: 114
-      Script: {instanceID: 21052}
+      Script: {instanceID: 20386}
     - Class: 114
-      Script: {instanceID: 21682}
+      Script: {instanceID: 21054}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 21684}
     - Class: 114
-      Script: {instanceID: 21902}
+      Script: {instanceID: 21720}
     - Class: 114
-      Script: {instanceID: 22302}
+      Script: {instanceID: 21904}
     - Class: 114
-      Script: {instanceID: 22330}
+      Script: {instanceID: 22304}
     - Class: 114
-      Script: {instanceID: 23110}
+      Script: {instanceID: 22332}
     - Class: 114
-      Script: {instanceID: 23922}
+      Script: {instanceID: 23112}
     - Class: 114
       Script: {instanceID: 24028}
     - Class: 114
@@ -165,6 +165,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 9d58ecf011242b5a0eeee1c3f3222caf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerSpawner
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -395,7 +401,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 0a1406fc98d69133822780fffb0749c9
+      Hash: 92e571d02e323cd1393583b3dbf7725e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1001,12 +1007,6 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9d58ecf011242b5a0eeee1c3f3222caf
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSpawner
-  - hash:
-      serializedVersion: 2
       Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1061,7 +1061,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 31799ff9ed862ba228e373d6c925b56c
+      Hash: dc4d8024f8a49f0bb646fba985c7b839
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PuckGoalTracker

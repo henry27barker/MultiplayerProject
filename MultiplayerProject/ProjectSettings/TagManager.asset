@@ -9,6 +9,7 @@ TagManager:
   - Goal1
   - Goal2
   - GameManager
+  - Paddle
   layers:
   - Default
   - TransparentFX
