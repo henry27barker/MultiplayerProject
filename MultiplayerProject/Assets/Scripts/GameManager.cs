@@ -1,138 +1,253 @@
 using System.Collections;
+using Unity.Netcode;
 using UnityEngine;
 using TMPro; // Import TextMeshPro namespace
 
-public class GameManager : MonoBehaviour
+public class GameManager : NetworkBehaviour
 {
-    [SerializeField] private GameObject hockeyPuck;
+    [SerializeField] private GameObject hockeyPuckPrefab;
+    [SerializeField] private Transform puckSpawnPoint;
     [SerializeField] private int startTimer = 3;
     [SerializeField] private float launchSpeed = 5f;
     [SerializeField] private float minSpeed = 2f;
-    [SerializeField] private TextMeshProUGUI countdownText; // TextMeshPro UI for countdown
-    [SerializeField] private AudioSource countdownBeep; // Beep sound on each second
-
-    private float startCounter;
-    private Rigidbody puckRb;
-    private bool gameStarted = false;
-
-    [SerializeField] private GameObject hockeyPuckPrefab;
-    [SerializeField] private Transform puckSpawnPoint;
-
+    [SerializeField] private TextMeshProUGUI countdownText;
+    [SerializeField] private AudioSource countdownBeep;
     [SerializeField] private TMP_Text player1ScoreText;
     [SerializeField] private TMP_Text player2ScoreText;
+    [SerializeField] private TMP_Text winText;
 
-    private int player1Score = 0;
-    private int player2Score = 0;
+    private NetworkVariable<int> player1Score = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
+    private NetworkVariable<int> player2Score = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
+    private NetworkVariable<int> playerCount = new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
+    
+    private int winningScore = 7;
+    private float startCounter;
+    private bool gameStarted = false;
+    private GameObject puckInstance;
+    private Rigidbody puckRb;
 
-    public void ScoreGoal(int player)
+    public override void OnNetworkSpawn()
+    {
+        if (IsServer)
+        {
+            NetworkManager.OnClientConnectedCallback += OnClientConnected;
+            NetworkManager.OnClientDisconnectCallback += OnClientDisconnected;
+        }
+        
+        winText.text = ""; // Ensure it's empty at the start
+        player1Score.OnValueChanged += (oldValue, newValue) => player1ScoreText.text = newValue.ToString();
+        player2Score.OnValueChanged += (oldValue, newValue) => player2ScoreText.text = newValue.ToString();
+    }
+
+    private void OnClientConnected(ulong clientId)
+    {
+        if (IsServer)
+        {
+            playerCount.Value++;
+            if (playerCount.Value == 2)
+            {
+                SpawnPuck();
+                StartCoroutine(StartCountdown());
+            }
+        }
+
+        // Ensure the client gets the current score values when they connect
+        UpdateScoresOnClientJoin();
+    }
+
+    private void OnClientDisconnected(ulong clientId)
+    {
+        if (IsServer)
+        {
+            playerCount.Value--;
+            gameStarted = false; // Stop the game if a player leaves
+        }
+    }
+
+    private void UpdateScoresOnClientJoin()
+    {
+        if (!IsServer) return;
+
+        // Update the score texts for all clients (this is called when a client connects)
+        player1ScoreText.text = player1Score.Value.ToString();
+        player2ScoreText.text = player2Score.Value.ToString();
+    }
+
+    [ServerRpc]
+    public void ScoreGoalServerRpc(int player)
     {
         if (player == 1)
         {
-            player1Score++;
+            player1Score.Value++;
         }
         else if (player == 2)
         {
-            player2Score++;
+            player2Score.Value++;
         }
 
-        // Update UI
-        player1ScoreText.text = player1Score.ToString();
-        player2ScoreText.text = player2Score.ToString();
+        if (player1Score.Value >= winningScore)
+        {
+            StartCoroutine(WinGame(1));
+        }
+        else if (player2Score.Value >= winningScore)
+        {
+            StartCoroutine(WinGame(2));
+        }
+        else
+        {
+            StartCoroutine(ResetGame());
+        }
+    }
 
-        // Restart game after short delay
+    private IEnumerator WinGame(int player)
+    {
+        // Update win text on all clients
+        WinGameClientRpc(player);
+
+        yield return new WaitForSeconds(3f);
+
+        player1Score.Value = 0;
+        player2Score.Value = 0;
+
+        // Clear win text on all clients
+        ClearWinTextClientRpc();
         StartCoroutine(ResetGame());
     }
 
     private IEnumerator ResetGame()
     {
-        yield return new WaitForSeconds(2f); // Short delay before reset
-
-        // Destroy current puck
-        GameObject existingPuck = GameObject.FindGameObjectWithTag("Puck");
-        if (existingPuck != null)
-        {
-            Destroy(existingPuck);
-        }
-
-        // Spawn new puck at center
-        GameObject newPuck = Instantiate(hockeyPuckPrefab, puckSpawnPoint.position, Quaternion.identity);
-        newPuck.tag = "Puck";
-        puckRb = newPuck.GetComponent<Rigidbody>(); // Update Rigidbody reference
-
-        // Wait a moment before launching the puck
-        yield return new WaitForSeconds(1f);
-
-        LaunchPuck();
+        yield return new WaitForSeconds(2f);
+        ResetPuckServerRpc();
     }
 
-    void Start()
+    [ServerRpc]
+    private void ResetPuckServerRpc()
     {
-        puckRb = hockeyPuck.GetComponent<Rigidbody>();
-        startCounter = startTimer;
+        if (puckInstance != null)
+        {
+            puckRb = puckInstance.GetComponent<Rigidbody>();
 
-        // Start countdown coroutine
+            if (puckRb != null)
+            {
+                puckRb.velocity = Vector3.zero;
+                puckRb.angularVelocity = Vector3.zero;
+
+                // Ensure the position update takes effect
+                puckRb.MovePosition(puckSpawnPoint.position);
+                puckRb.rotation = Quaternion.identity;
+                puckRb.Sleep(); // Stops physics calculations temporarily
+            }
+        }
+        else
+        {
+            SpawnPuck();
+        }
+
         StartCoroutine(StartCountdown());
     }
 
-    private void FixedUpdate()
+    private void SpawnPuck()
     {
-        if (gameStarted)
+        if (!IsServer) return;
+
+        if (puckInstance != null)
         {
-            MaintainMinSpeed();
+            Destroy(puckInstance);
         }
+
+        puckInstance = Instantiate(hockeyPuckPrefab, puckSpawnPoint.position, Quaternion.identity);
+        puckInstance.GetComponent<NetworkObject>().Spawn();
+        puckRb = puckInstance.GetComponent<Rigidbody>();
     }
 
-    IEnumerator StartCountdown()
+    private IEnumerator StartCountdown()
     {
+        if (playerCount.Value < 2)
+        {
+            countdownText.text = "Waiting for players...";
+            yield break; // Don't start if there are not enough players
+        }
+
+        startCounter = startTimer;
+
         while (startCounter > 0)
         {
-            // Update UI countdown
-            countdownText.text = startCounter.ToString();
+            // Update countdown text on all clients
+            CountdownTextClientRpc(startCounter.ToString());
 
-            // Play countdown beep
-            if (countdownBeep != null)
-                countdownBeep.Play();
+            if (countdownBeep != null) countdownBeep.Play();
 
             yield return new WaitForSeconds(1f);
             startCounter--;
         }
 
-        // Hide countdown UI
-        countdownText.text = "";
+        // Clear countdown text
+        CountdownTextClientRpc("");
 
-        // Launch the puck
-        LaunchPuck();
+        countdownText.text = "";
+        LaunchPuckServerRpc();
     }
 
-    private void LaunchPuck()
+    [ServerRpc]
+    private void LaunchPuckServerRpc()
     {
         float angle = GetValidLaunchAngle();
-        Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)); // Convert angle to vector
+        Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
 
-        puckRb.velocity = new Vector3(direction.x, 0, direction.y) * launchSpeed;
-        gameStarted = true;
+        if (puckRb != null)
+        {
+            puckRb.velocity = new Vector3(direction.x, 0, direction.y) * launchSpeed;
+            gameStarted = true;
+        }
     }
 
     private float GetValidLaunchAngle()
     {
         float[] validAngles = { 
-            Random.Range(30f, 60f),     // Top-right
-            Random.Range(120f, 150f),   // Top-left
-            Random.Range(210f, 240f),   // Bottom-left
-            Random.Range(300f, 330f)    // Bottom-right
+            Random.Range(30f, 80f),
+            Random.Range(100f, 150f),
+            Random.Range(210f, 260f),
+            Random.Range(280f, 330f)
         };
 
-        return validAngles[Random.Range(0, validAngles.Length)] * Mathf.Deg2Rad; // Convert to radians
+        return validAngles[Random.Range(0, validAngles.Length)] * Mathf.Deg2Rad;
     }
 
+    private void FixedUpdate()
+    {
+        if (gameStarted && puckRb != null)
+        {
+            MaintainMinSpeed();
+        }
+    }
 
     private void MaintainMinSpeed()
     {
-        float currentSpeed = puckRb.velocity.magnitude;
-
-        if (currentSpeed < minSpeed)
+        if (puckRb != null && puckRb.velocity.magnitude < minSpeed)
         {
             puckRb.velocity = puckRb.velocity.normalized * minSpeed;
         }
+    }
+
+    // ClientRpc to update win text on all clients
+    [ClientRpc]
+    private void WinGameClientRpc(int player)
+    {
+        winText.text = $"Player {player} Wins!";
+        winText.gameObject.SetActive(true);
+    }
+
+    // ClientRpc to clear win text on all clients
+    [ClientRpc]
+    private void ClearWinTextClientRpc()
+    {
+        winText.gameObject.SetActive(false);
+    }
+
+    // ClientRpc to update countdown text on all clients
+    [ClientRpc]
+    private void CountdownTextClientRpc(string text)
+    {
+        countdownText.text = text;
     }
 }
