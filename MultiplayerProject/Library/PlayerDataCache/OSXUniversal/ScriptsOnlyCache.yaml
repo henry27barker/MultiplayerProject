@@ -100,6 +100,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -395,7 +399,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 33478088f41ac6f2417c15d1e7c88011
+      Hash: 522e38076a080f464c97d35b95f5f924
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1061,7 +1065,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: dc4d8024f8a49f0bb646fba985c7b839
+      Hash: 74cb7a7d133585f27067cec26bc16d2c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PuckGoalTracker

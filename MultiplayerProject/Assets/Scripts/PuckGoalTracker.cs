@@ -9,6 +9,8 @@ public class PuckGoalTracker : NetworkBehaviour
 
     [SerializeField] private float speedIncreaseFactor = 1.1f; // 10% speed increase per hit
     [SerializeField] private float maxSpeed = 15f; // Set a reasonable max speed
+    [SerializeField] private AudioSource collisionSound; // Audio source for collision sounds
+    [SerializeField] private AudioSource goalSound; // Audio source for goal sounds
 
     private Rigidbody rb;
 
@@ -38,6 +40,9 @@ public class PuckGoalTracker : NetworkBehaviour
         {
             IncreaseSpeed();
         }
+
+        // Play collision sound
+        PlayCollisionSoundClientRpc();
     }
 
     private void IncreaseSpeed()
@@ -62,10 +67,32 @@ public class PuckGoalTracker : NetworkBehaviour
         if (other.CompareTag("Goal1"))
         {
             gameManager.ScoreGoalServerRpc(1);
+            PlayGoalSoundClientRpc(); // Play goal sound on all clients
         }
         else if (other.CompareTag("Goal2"))
         {
             gameManager.ScoreGoalServerRpc(2);
+            PlayGoalSoundClientRpc(); // Play goal sound on all clients
+        }
+    }
+
+    [ClientRpc]
+    private void PlayCollisionSoundClientRpc()
+    {
+        if (collisionSound != null)
+        {
+            collisionSound.volume = Random.Range(0.8f, 1f);
+            collisionSound.pitch = Random.Range(0.8f, 1f);
+            collisionSound.PlayOneShot(collisionSound.clip);
+        }
+    }
+
+    [ClientRpc]
+    private void PlayGoalSoundClientRpc()
+    {
+        if (goalSound != null)
+        {
+            goalSound.Play();
         }
     }
 }

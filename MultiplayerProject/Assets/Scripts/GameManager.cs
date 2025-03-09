@@ -12,6 +12,9 @@ public class GameManager : NetworkBehaviour
     [SerializeField] private float minSpeed = 2f;
     [SerializeField] private TextMeshProUGUI countdownText;
     [SerializeField] private AudioSource countdownBeep;
+    [SerializeField] private AudioSource goalSound;
+    [SerializeField] private AudioSource victorySound;
+    [SerializeField] private AudioSource loseSound;
     [SerializeField] private TMP_Text player1ScoreText;
     [SerializeField] private TMP_Text player2ScoreText;
     [SerializeField] private TMP_Text winText;
@@ -85,6 +88,9 @@ public class GameManager : NetworkBehaviour
             player2Score.Value++;
         }
 
+        // Play goal sound after a short delay
+        PlayGoalSoundClientRpc();
+
         if (player1Score.Value >= winningScore)
         {
             StartCoroutine(WinGame(1));
@@ -99,20 +105,61 @@ public class GameManager : NetworkBehaviour
         }
     }
 
+    [ClientRpc]
+    private void PlayGoalSoundClientRpc()
+    {
+        StartCoroutine(DelayedGoalSound());
+    }
+
+    private IEnumerator DelayedGoalSound()
+    {
+        yield return new WaitForSeconds(0.5f); // Wait for half a second
+
+        if (goalSound != null)
+        {
+            goalSound.Play();
+        }
+    }
+
+
     private IEnumerator WinGame(int player)
     {
         // Update win text on all clients
         WinGameClientRpc(player);
 
-        yield return new WaitForSeconds(3f);
+        // Play victory and lose sounds properly
+        PlayWinLoseSoundClientRpc(player);
+
+        // Wait for the duration of the sounds (~7.5 seconds) before restarting
+        yield return new WaitForSeconds(7.5f);
 
         player1Score.Value = 0;
         player2Score.Value = 0;
 
         // Clear win text on all clients
         ClearWinTextClientRpc();
+
+        // Restart the game after the delay
         StartCoroutine(ResetGame());
     }
+
+    [ClientRpc]
+    private void PlayWinLoseSoundClientRpc(int winner)
+    {
+        ulong localClientId = NetworkManager.Singleton.LocalClientId; // Get local player ID
+
+        if ((winner == 1 && localClientId == 0) || (winner == 2 && localClientId == 1))
+        {
+            // The winner hears the victory sound
+            if (victorySound != null) victorySound.Play();
+        }
+        else
+        {
+            // The loser hears the lose sound
+            if (loseSound != null) loseSound.Play();
+        }
+    }
+
 
     private IEnumerator ResetGame()
     {
@@ -175,11 +222,14 @@ public class GameManager : NetworkBehaviour
             // Update countdown text on all clients
             CountdownTextClientRpc(startCounter.ToString());
 
-            if (countdownBeep != null) countdownBeep.Play();
+            // Play countdown beep sound on all clients
+            CountdownBeepClientRpc(false);
 
             yield return new WaitForSeconds(1f);
             startCounter--;
         }
+
+        CountdownBeepClientRpc(true);
 
         // Clear countdown text
         CountdownTextClientRpc("");
@@ -187,6 +237,24 @@ public class GameManager : NetworkBehaviour
         countdownText.text = "";
         LaunchPuckServerRpc();
     }
+
+    // ClientRpc to play the countdown beep on all clients
+    [ClientRpc]
+    private void CountdownBeepClientRpc(bool isHigherPitch)
+    {
+        if (countdownBeep != null)
+        {
+            if(!isHigherPitch){
+                countdownBeep.pitch = 1f;
+                countdownBeep.Play();
+            }
+            else{
+                countdownBeep.pitch = 1.5f;
+                countdownBeep.Play();
+            }
+        }
+    }
+
 
     [ServerRpc]
     private void LaunchPuckServerRpc()
