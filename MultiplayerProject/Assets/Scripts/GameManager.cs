@@ -211,7 +211,7 @@ public class GameManager : NetworkBehaviour
     {
         if (playerCount.Value < 2)
         {
-            countdownText.text = "Waiting for players...";
+            CountdownTextClientRpc("Waiting for players...");
             yield break; // Don't start if there are not enough players
         }
 
